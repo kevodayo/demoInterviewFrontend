@@ -1,0 +1,27 @@
+<nav class="navbar navbar-expand-sm bg-primary navbar-dark">
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a routerLink="employees" routerLinkActive="active" class="nav-link">Customer transaction</a>
+    </li>
+    <li class="nav-item">
+      <a routerLink="withdawal" routerLinkActive="active" class="nav-link">Withdrawal</a>
+    </li>
+    <li class="nav-item">
+      <a routerLink="deposit" routerLinkActive="active" class="nav-link">Deposit</a>
+    </li>
+    <li class="nav-item">
+      <a routerLink="create-employee" routerLinkActive="active" class="nav-link">Add Account</a>
+    </li>
+  </ul>
+</nav>
+
+<h1 class="text-center">{{title}}</h1>
+<div class="container">
+  <router-outlet></router-outlet>
+  <!-- <app-employee-list></app-employee-list> -->
+</div>
+<footer class="footer">
+  <div class="container">
+    <span>All Rights Reserved 2023 @Oyandakevine</span>
+  </div>
+</footer>
